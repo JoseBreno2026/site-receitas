@@ -2,6 +2,11 @@
 
 Aplicação web desenvolvida para consulta de receitas culinárias brasileiras, organizadas por região. O sistema conta com um módulo de segurança e autenticação, permitindo que os utilizadores criem contas, façam login e acedam ao catálogo de receitas.
 
+## 👥 Autores
+- Jose Breno Da Silva Almeida ([@JoseBreno2026](https://github.com/JoseBreno2026))
+- Jose Almeida de Freitas Neto ([@josealmeidatech](https://github.com/josealmeidatech))
+- Lennath Conrado Vasconcelos Ventura Andrade ([@Lennarth2026](https://github.com/Lennarth2026))
+  
 ## 🚀 Funcionalidades
 - **Sistema de Autenticação:** Registo e login de utilizadores com gestão de sessões.
 - **Consulta de Receitas por Região:** Catálogo com 20 receitas tradicionais, acessíveis pelas regiões do Brasil (Norte, Nordeste, Sudeste, Sul e Centro-Oeste) ou pela lista completa na página principal. Cada receita apresenta os ingredientes e o modo de preparo.
