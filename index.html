@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Deliciosas</title>
+    <link rel="stylesheet" href="css/styleindex.css">
+</head>
+<body>
+    <header>
+        <h1>Receitas Deliciosas</h1>
+        <div class="botoes-autenticacao">
+            <a href="php/paginalogin.php">Login</a> 
+            <a href="php/paginaregistro.php">Registrar</a>
+        </div>
+    </header>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>    
+
+    <main>
+        <section id="inicio">
+            <h2>Bem-vindo ao Receitas Deliciosas!</h2>
+            <p>Para ter acesso a todas as nossas receitas, faça seu <a href="php/paginalogin.php">LOGIN</a> e descubra as melhores receitas das regiões brasileiras, preparadas com amor e dedicação. Aqui você encontra pratos simples e sofisticados para todas as ocasiões.</p>
+            
+            <div class="categorias">
+                <div class="categoria">
+                    <h3>Café da Manhã</h3>
+                    <p>Receitas perfeitas para começar o dia com energia!</p>
+                </div>
+                <div class="categoria">
+                    <h3>Pratos Principais</h3>
+                    <p>Inspire-se com pratos deliciosos para o almoço ou jantar.</p>
+                </div>
+                <div class="categoria">
+                    <h3>Sobremesas</h3>
+                    <p>Encontre as sobremesas mais doces e irresistíveis.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>O Receitas Deliciosas nasceu da paixão pela culinária e pela vontade de compartilhar sabores únicos com o mundo. Nossa missão é inspirar você a cozinhar pratos incríveis e explorar o maravilhoso universo da gastronomia brasileira.</p>
+            <img src="img/logo.jpg" alt="Equipe Receitas Deliciosas">
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Tem dúvidas, sugestões ou deseja colaborar conosco? Preencha o formulário abaixo e entraremos em contato:</p>
+            <form action="php/enviaremail.php" method="post">
+                <label for="campo-nome">Nome:</label>
+                <input type="text" id="campo-nome" name="nome">
+                
+                <label for="campo-email">Email:</label>
+                <input type="email" id="campo-email" name="email">
+                
+                <label for="campo-mensagem">Mensagem:</label>
+                <textarea id="campo-mensagem" name="mensagem" rows="5"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Receitas Deliciosas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
